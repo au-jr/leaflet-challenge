@@ -10,13 +10,18 @@ html {
 }
 
 .legend {
+  /* Spacing between coloured tiles */
   line-height: 18px;
+  /* Colour of associated text */
   color: #555;
 }
 .legend i {
+  /* Height and width of the coloured reference tile */
   width: 18px;
   height: 18px;
+  /* Position of the coloured reference tile */
   float: left;
+  /* Position of attribute tile */
   margin-right: 8px;
   opacity: 0.8;
 }
